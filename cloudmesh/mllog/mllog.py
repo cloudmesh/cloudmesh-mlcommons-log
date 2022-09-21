@@ -58,14 +58,28 @@ class MLLOG:
             if (len(found) > 1):
                 success = False
                 print(f"Error: to many {key}'s found: {len(found)}")
+        return success
 
     def find_intervals(self, filename):
-        content = self.grep(filename)
-        print ("AAA", content)
-        content = "\n".join(Shell.find_lines_with(content, "INTERVAL_"))
-        print("jjj", content)
-        return content
-
+        content = self.grep(filename).splitlines()
+        keys = {
+            "init_start",
+            "init_stop",
+            "run_start",
+            "run_stop",
+        }
+        success = True
+        count = {}
+        for key in  keys:
+            found = Shell.find_lines_with(content, key)
+            if (len(found) == 0):
+                success = False
+                print(f"Error: {key} not found")
+            if (len(found) > 1):
+                success = False
+                print(f"Error: to many {key}'s found: {len(found)}")
+            count[key] = len(found)
+        return success and count["init_start"] == count["init_end"] and count["run_start"] == count["run_end"]
 
     def find(self, content, query):
         result = []
