@@ -21,6 +21,7 @@ class MllogCommand(PluginCommand):
                 mllog check --file=FILE [--benchmark=BENCHMARK]
                 mllog check --dir=DIRECTORY [--benchmark=BENCHMARK]
                 mllog grep --file=FILE [--benchmark=BENCHMARK]
+                mllog submit --source=DIRECTORY
 
           This command checks the science mllog format before submission.
 
@@ -35,7 +36,12 @@ class MllogCommand(PluginCommand):
 
           Description:
 
-            TBD
+
+            instalation
+
+               pip install cloudmeh-mllog
+
+               cms mllog check ...
 
         """
 
