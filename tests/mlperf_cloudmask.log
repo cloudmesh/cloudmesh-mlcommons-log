@@ -1,0 +1,45 @@
+:::MLLOG {"namespace": "", "time_ms": 1653498407542, "event_type": "POINT_IN_TIME", "key": "submission_benchmark", "value": "CloudMask", "metadata": {"file": "slstr_cloud.py", "lineno": 188}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407731, "event_type": "POINT_IN_TIME", "key": "submission_org", "value": "STFC", "metadata": {"file": "slstr_cloud.py", "lineno": 189}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407731, "event_type": "POINT_IN_TIME", "key": "submission_division", "value": "SciML", "metadata": {"file": "slstr_cloud.py", "lineno": 190}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407731, "event_type": "POINT_IN_TIME", "key": "submission_status", "value": "research", "metadata": {"file": "slstr_cloud.py", "lineno": 191}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407731, "event_type": "POINT_IN_TIME", "key": "submission_platform", "value": "nvidia gtx-2", "metadata": {"file": "slstr_cloud.py", "lineno": 192}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407732, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "slstr_cloud.py", "lineno": 193}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407732, "event_type": "POINT_IN_TIME", "key": "number_of_ranks", "value": 2, "metadata": {"file": "slstr_cloud.py", "lineno": 195}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407732, "event_type": "POINT_IN_TIME", "key": "number_of_nodes", "value": 1, "metadata": {"file": "slstr_cloud.py", "lineno": 196}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407732, "event_type": "POINT_IN_TIME", "key": "accelerators_per_node", "value": 6, "metadata": {"file": "slstr_cloud.py", "lineno": 197}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407732, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "slstr_cloud.py", "lineno": 198}}
+:::MLLOG {"namespace": "", "time_ms": 1653498407732, "event_type": "POINT_IN_TIME", "key": "eval_start", "value": "Start: Taining", "metadata": {"file": "slstr_cloud.py", "lineno": 202}}
+:::MLLOG {"namespace": "", "time_ms": 1653499384838, "event_type": "POINT_IN_TIME", "key": "eval_stop", "value": "Stop: Training", "metadata": {"file": "slstr_cloud.py", "lineno": 204}}
+:::MLLOG {"namespace": "", "time_ms": 1653499384876, "event_type": "POINT_IN_TIME", "key": "eval_start", "value": "Start: Inference", "metadata": {"file": "slstr_cloud.py", "lineno": 214}}
+:::MLLOG {"namespace": "", "time_ms": 1653499390621, "event_type": "POINT_IN_TIME", "key": "eval_stop", "value": "Stop: Inference", "metadata": {"file": "slstr_cloud.py", "lineno": 216}}
+:::MLLOG {"namespace": "", "time_ms": 1653499390622, "event_type": "INTERVAL_END", "key": "run_stop", "value": "CloudMask benchmark run finished", "metadata": {"file": "slstr_cloud.py", "lineno": 225, "status": "success"}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343192, "event_type": "POINT_IN_TIME", "key": "submission_benchmark", "value": "CloudMask", "metadata": {"file": "slstr_cloud.py", "lineno": 187}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343394, "event_type": "POINT_IN_TIME", "key": "submission_org", "value": "STFC", "metadata": {"file": "slstr_cloud.py", "lineno": 188}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343394, "event_type": "POINT_IN_TIME", "key": "submission_division", "value": "SciML", "metadata": {"file": "slstr_cloud.py", "lineno": 189}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343394, "event_type": "POINT_IN_TIME", "key": "submission_status", "value": "research", "metadata": {"file": "slstr_cloud.py", "lineno": 190}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343394, "event_type": "POINT_IN_TIME", "key": "submission_platform", "value": "nvidia gtx-2", "metadata": {"file": "slstr_cloud.py", "lineno": 191}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343394, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "slstr_cloud.py", "lineno": 192}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343394, "event_type": "POINT_IN_TIME", "key": "number_of_ranks", "value": 2, "metadata": {"file": "slstr_cloud.py", "lineno": 194}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343394, "event_type": "POINT_IN_TIME", "key": "number_of_nodes", "value": 1, "metadata": {"file": "slstr_cloud.py", "lineno": 195}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343395, "event_type": "POINT_IN_TIME", "key": "accelerators_per_node", "value": 16, "metadata": {"file": "slstr_cloud.py", "lineno": 196}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343395, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "slstr_cloud.py", "lineno": 197}}
+:::MLLOG {"namespace": "", "time_ms": 1653558343395, "event_type": "POINT_IN_TIME", "key": "eval_start", "value": "Start: Taining", "metadata": {"file": "slstr_cloud.py", "lineno": 201}}
+:::MLLOG {"namespace": "", "time_ms": 1653559156564, "event_type": "POINT_IN_TIME", "key": "eval_stop", "value": "Stop: Training", "metadata": {"file": "slstr_cloud.py", "lineno": 203}}
+:::MLLOG {"namespace": "", "time_ms": 1653559156582, "event_type": "POINT_IN_TIME", "key": "eval_start", "value": "Start: Inference", "metadata": {"file": "slstr_cloud.py", "lineno": 213}}
+:::MLLOG {"namespace": "", "time_ms": 1653559299114, "event_type": "POINT_IN_TIME", "key": "eval_stop", "value": "Stop: Inference", "metadata": {"file": "slstr_cloud.py", "lineno": 215}}
+:::MLLOG {"namespace": "", "time_ms": 1653559299115, "event_type": "INTERVAL_END", "key": "run_stop", "value": "CloudMask benchmark run finished", "metadata": {"file": "slstr_cloud.py", "lineno": 224, "status": "success"}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118201, "event_type": "POINT_IN_TIME", "key": "submission_benchmark", "value": "CloudMask", "metadata": {"file": "slstr_cloud.py", "lineno": 187}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118415, "event_type": "POINT_IN_TIME", "key": "submission_org", "value": "STFC", "metadata": {"file": "slstr_cloud.py", "lineno": 188}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118415, "event_type": "POINT_IN_TIME", "key": "submission_division", "value": "SciML", "metadata": {"file": "slstr_cloud.py", "lineno": 189}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118415, "event_type": "POINT_IN_TIME", "key": "submission_status", "value": "research", "metadata": {"file": "slstr_cloud.py", "lineno": 190}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118416, "event_type": "POINT_IN_TIME", "key": "submission_platform", "value": "nvidia gtx-2", "metadata": {"file": "slstr_cloud.py", "lineno": 191}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118416, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "slstr_cloud.py", "lineno": 192}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118416, "event_type": "POINT_IN_TIME", "key": "number_of_ranks", "value": 2, "metadata": {"file": "slstr_cloud.py", "lineno": 194}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118416, "event_type": "POINT_IN_TIME", "key": "number_of_nodes", "value": 1, "metadata": {"file": "slstr_cloud.py", "lineno": 195}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118416, "event_type": "POINT_IN_TIME", "key": "accelerators_per_node", "value": 16, "metadata": {"file": "slstr_cloud.py", "lineno": 196}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118416, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "slstr_cloud.py", "lineno": 197}}
+:::MLLOG {"namespace": "", "time_ms": 1654379118416, "event_type": "POINT_IN_TIME", "key": "eval_start", "value": "Start: Taining", "metadata": {"file": "slstr_cloud.py", "lineno": 201}}
+:::MLLOG {"namespace": "", "time_ms": 1654380025413, "event_type": "POINT_IN_TIME", "key": "eval_stop", "value": "Stop: Training", "metadata": {"file": "slstr_cloud.py", "lineno": 203}}
+:::MLLOG {"namespace": "", "time_ms": 1654380025414, "event_type": "POINT_IN_TIME", "key": "eval_start", "value": "Start: Inference", "metadata": {"file": "slstr_cloud.py", "lineno": 213}}
+:::MLLOG {"namespace": "", "time_ms": 1654380140533, "event_type": "POINT_IN_TIME", "key": "eval_stop", "value": "Stop: Inference", "metadata": {"file": "slstr_cloud.py", "lineno": 215}}
+:::MLLOG {"namespace": "", "time_ms": 1654380140534, "event_type": "INTERVAL_END", "key": "run_stop", "value": "CloudMask benchmark run finished", "metadata": {"file": "slstr_cloud.py", "lineno": 224, "status": "success"}}
